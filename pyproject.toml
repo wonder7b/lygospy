@@ -1,11 +1,37 @@
+[build-system]
+requies = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "lygospy"
 version = "0.1.0"
-description = "A Python package for Lygos API"
+authors = [
+    {name = "wonder7b", email = "matutamedi@gmail.com"}
+]
+description = "A Python client for Lygos API"
 readme = "README.md"
 requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+license = {file = "LICENSE"}
 dependencies = [
     "jwt>=1.4.0",
     "requests>=2.32.5",
     "rich>=14.1.0",
 ]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.4.2",
+    "python-dotenv>=1.1.1",
+    "setuptools>=80.9.0",
+    "twine>=6.2.0",
+    "wheel>=0.45.1",
+]
+
+[project.urls]
+Homepage = "https://github.com/lygosapp/lygospy/"
+Issues = "https://github.com/lygosapp/lygospy/"
