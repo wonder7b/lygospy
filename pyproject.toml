@@ -18,9 +18,7 @@ classifiers = [
 ]
 license = {file = "LICENSE"}
 dependencies = [
-    "jwt>=1.4.0",
     "requests>=2.32.5",
-    "rich>=14.1.0",
 ]
 
 [dependency-groups]
