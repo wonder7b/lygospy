@@ -321,6 +321,5 @@ Voir le fichier `LICENSE` pour plus de détails.
 
 ---
 
-*made with ❤️ by wonder7b*
 
-```
+*made with ❤️ by [wonder7b](https://github.com/wonder7b/)*
